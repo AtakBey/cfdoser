@@ -6,6 +6,6 @@ Cloudflare Bypass Doser
 
 pip3 install requests colorama cfscrape
 </code></pre>
-<p>#Usage</p>
+<p>#Kullanim</p>
 <pre><code>python3 cfdoser.py
 </code></pre>
