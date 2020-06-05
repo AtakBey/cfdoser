@@ -13,6 +13,7 @@ print(Fore.YELLOW + """
  \____|_|     |____/ |_| |_| /_/   \_\____/____/
 """)
 print("Coded By GogoZin Developed By Atakbey - 2020")
+print("visit website ak74security.org")
 
 def opth():
 	for a in range(thr):
