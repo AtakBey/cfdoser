@@ -39,12 +39,12 @@ def main():
 	if ge =='y':
 		if ssl == 'y':
 			rsp = requests.get('https://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all&anonymity=all&ssl=yes&timeout=2000') #Code By GogoZin
-			with open('proxies.txt','wb') as fp:
+			with open('proxy.txt','wb') as fp:
 				fp.write(rsp.content)
 				print(Fore.CYAN + "Https proxy basarili bir sekilde alindi!")
 		else:
 			rsp = requests.get('https://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all&anonymity=all&ssl=all&timeout=1000') #Code By GogoZin
-			with open('proxies.txt','wb') as fp:
+			with open('proxy.txt','wb') as fp:
 				fp.write(rsp.content)
 				print(Fore.CYAN + "Http proxy basarili bir sekilde alindi!")
 	else:
